@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход в аккаунт</title>
+</head>
+<body>
+<h1>Вход в аккаунт</h1><hr><br>
+<form method="post" action="/user/log">
+    {{ form.email.label }}
+    {{ form.email }}<br>
+    {{ form.password.label }}
+    {{ form.password }}<br>
+    {{ form.button }}
+
+</form>
+
+</body>
+</html>

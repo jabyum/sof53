@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<h1>Регистрация</h1><hr><br>
+<form method="post" action="/user/reg">
+    {{ form.name.label }} <br>
+    {{ form.name }} <br>
+    {{ form.email.label }}<br>
+    {{ form.email }}<br>
+    {{ form.password.label }}<br>
+    {{ form.password }}<br>
+    {{ form.password2.label }}<br>
+    {{ form.password2 }}<br>
+    {{ form.button }}
+</form>
+</body>
+</html>
